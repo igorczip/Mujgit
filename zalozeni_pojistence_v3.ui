@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="tk.Toplevel" id="zalozeni_window" named="True">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Frame" id="frame_cover" named="True">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">0</property>
+          <property name="sticky">nsew</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="label1">
+            <property name="font">{Calibri} 14 {bold}</property>
+            <property name="text" translatable="yes">Nový pojištěnec</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Frame" id="frame_data" named="True">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="ipadx">10</property>
+              <property name="ipady">10</property>
+              <property name="padx">15</property>
+              <property name="pady">15</property>
+              <property name="row">1</property>
+              <property name="sticky">nsew</property>
+            </layout>
+            <child>
+              <object class="ttk.Label" id="label2">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_jmeno_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Jméno</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_prijmeni_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Příjmení</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_jm_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">2</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_prijmeni_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">2</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label3">
+                <layout manager="grid">
+                  <property name="column">2</property>
+                  <property name="row">3</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_datum_narozeni" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Datum narození</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">4</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_datum_narozeni" named="True">
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">5</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label5">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">6</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_email_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Email</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">7</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_tel_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Telefon</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">7</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_email_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">8</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_tel_pojistenec" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">8</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label8">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">9</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_ulice" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Ulice</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">10</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_cislo_popisne" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Číslo popisné</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">10</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_ulice" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">11</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_cislo_popisne" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">11</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label11">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">12</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label14">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">12</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_mesto" named="True">
+                <property name="font">TkDefaultFont</property>
+                <property name="text" translatable="yes">Město</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">13</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="lbl_psc" named="True">
+                <property name="text" translatable="yes">PSČ</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">13</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_mesto" named="True">
+                <property name="font">TkDefaultFont</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">14</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entr_psc" named="True">
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">14</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label7">
+                <property name="text" translatable="yes">       </property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">15</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label12">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">17</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label13">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">18</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="btn_ulozit_data_pojistence" named="True">
+                <property name="command" type="command" cbtype="simple">onClickedUlozitPojistence</property>
+                <property name="text" translatable="yes">Uložit data nového pojištěnce</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">19</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label6">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">21</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label15">
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="row">22</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label4">
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">24</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label9">
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">25</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label10">
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="row">26</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="btn_destroy_window_new_insured" named="True">
+                <property name="command" type="command" cbtype="simple">onClickedDestrWindowNewInsured</property>
+                <property name="text" translatable="yes">zavřít okno</property>
+                <layout manager="grid">
+                  <property name="column">3</property>
+                  <property name="row">27</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
